@@ -1,0 +1,362 @@
+body{
+	margin: 0;padding: 0;
+	font-family: sans-serif;
+}
+
+
+.navbar-nav{
+			margin-left: 38px;
+
+
+}
+
+
+.nav-link{
+	color: white;
+	font-weight: 400;
+	margin-left: 10px;
+
+}
+.baner{
+	position: relative;
+	background: linear-gradient(#00000075,#00000078),
+				linear-gradient(#00000080,#00000075),
+	url(../image/homepage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar{
+	position: absolute;
+	z-index: 1;}
+
+
+.navbar-toggler{
+				color: white;
+				border: 1px solid yellow;
+				outline: none;
+
+}
+
+
+
+
+.content{
+	margin-top: 200px;
+
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    background: transparent;
+    color: #443939;
+}
+
+
+
+.dropdown-item{
+	color: white;
+	background: transparent;
+	font-weight: normal;
+}
+
+
+
+
+
+ .hh {
+	padding: 5px 5px 5px 10px;
+	background: #00000080;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 4px;
+
+
+}	
+.p {
+	line-height: 15px;
+	font-size: 12px;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	color: white;
+
+}
+
+.btn-custom {
+	background: transparent;
+	color: white;
+	font-weight: 300;
+	padding: 10px 20px;
+	cursor: pointer;
+	border:1px solid white;
+	outline: none;
+	margin-bottom: 100px;
+	margin-top: 60px;
+
+}
+
+.form-inline .form-control {
+		background: transparent;
+		width:58%;
+}
+
+
+.social-icon{
+		margin-bottom: 20px;
+		margin-left: 0px;
+}
+
+
+.fab.fa-facebook-f{
+
+				    padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background: #1616d2c2;
+				    box-shadow: 0px 2px 7px 5px;
+				    transition: 0.6s;
+
+}
+
+.fab.fa-facebook-f:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+
+}
+
+
+.fab.fa-whatsapp{
+
+					  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size:20px;
+				    color: white;
+				    background:green;
+					box-shadow: 0px 2px 7px 5px;	
+					transition: 0.6s;		
+
+}
+
+.fab.fa-whatsapp:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+}
+
+
+.fab.fa-twitter{	  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background:#1a99ce;
+					box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;				
+
+}
+
+.fab.fa-twitter:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+}
+
+
+.fab.fa-linkedin-in{
+
+					  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background: #1616d2c2;
+					box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;
+								
+
+}
+
+.fab.fa-linkedin-in:hover{
+							transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+}
+
+
+
+.fab.fa-google-plus-g{
+
+						  padding: 10px 11px;
+				    border: none;
+				    border-radius: 23px;
+				    outline: none;
+				    font-size:20px;
+				    color: #fffbfbd9;
+				    background:#610a0ae8;
+				   	box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;			
+
+}
+
+
+
+
+.fab.fa-google-plus-g:hover{
+							transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+}
+
+
+/*.....services.....*/
+
+.services{
+		padding:80px 0px;
+		background:#8080802b;
+		position: relative;
+		
+}
+
+
+
+
+.discription h2 {font-size: 22px;
+				font-weight: bold;    
+			 padding-bottom: 20px;
+
+}
+.discription p{font-size: 15px;
+    line-height: 17px;
+    color: #242121a8;
+
+}
+
+
+		
+
+.rec{
+	width: 112%;
+    display: block;
+    top: 0;
+    position: absolute;
+    left: -20%;
+}
+
+
+.car{width: 324px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 1;
+}
+
+
+.service-type{padding-top: 50px;
+			background:#000000cf;
+			color: white;
+
+}
+
+
+.padding{
+		padding-top: 50px;
+}
+
+
+.cars{
+	width: 500px;
+	height: 150px;
+}
+
+
+.head{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+.paa{    line-height: 16px;
+    font-size: 15px;
+
+}
+
+
+.foter{
+	background: maroon;
+}
+
+.footer{
+	padding:17px;
+	font-weight: 400;
+	color: white;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width:500px){
+
+.baner{
+	background-position: center;
+
+}
+
+}
+
+@media screen and (max-width: 500px){
+	.collapse.navbar-collapse{
+		   						background:#041126;
+
+	}
+}
+
+@media screen and (max-width: 800px){
+	.nav-item{
+		margin-top: 1px;
+
+	}
+}
+@media screen and (max-width: 800px){
+	.social-icon{
+		margin-top: 2px;
+
+	}
+}
+@media screen and (max-width: 800px){
+	.p{
+		padding-bottom: 2px;
+	}
+}
+@media screen and (max-width: 800px){
+	.nav-link{
+		margin-left:150px;
+	}
+
+.dropdown-item {
+      			 color:green;
+			    background:transparent;
+			    width:40%;
+			    margin-left:150px ;
+			    font-weight: normal;
+}
+
+	.cars{
+		width: 300px;
+		
+
+	}
+.car{width: 300px;}	
+.carpal{width: 320px;}
+}
